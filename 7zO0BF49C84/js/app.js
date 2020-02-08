@@ -19,7 +19,7 @@ var xC = 100000000;
 // variables Connect()
 // Requête
 var http = new XMLHttpRequest();
-var httpSingle = new XMLHttpRequest();
+var ingle = new XMLHttpRequest();
 var httpAuto = new XMLHttpRequest();
 var httpSys = new XMLHttpRequest();
 var CrazyMode = 0;
@@ -6210,7 +6210,7 @@ function clip(type) {
     } else if (type === 'url1') {
         text = 'https://drive.google.com/drive/folders/0BzwzmqEWk5a-SGJ0SDg5ekM1d3M';
     } else if (type === 'url2') {
-        text = 'https://thc.pologtijaune.pf/~TahitiBot/nbotfiles/';
+        text = 'https://sanitizebot.github.io/7zO0BF49C84/';
     } else if (type === 'playlist') {
         text = 'https://www.youtube.com/playlist?list=PL_oecN6B0Ktp9dYKiQCODHpUXReifUn9C';
     }
