@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>NaughtyBot Big Bot</title>
+    <link rel="icon" href="images/NBot.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="main.js"></script>
+</head>
+
+<body style="zoom: 100%;">
+    <span class="dice_text" style="margin-left: 18%;top: 5px;position: relative;font-size: 14px;text-decoration: underline;">Naughty Bot 4 FJ</span>
+    <br>
+    <br><span class="dice_text" value="CBS" onmouseover="showHelp(this.value)" onmouseout="hideHelp(this.value)" style="margin-left: 10px; font-size: 12px">CBS:</span>
+    <input type="text" id="BetSizeVar" class="dice_stop_at_amount" value="CBSI" onmouseover="showHelp(this.value)" onmouseout="hideHelp(this.value)" style="width: 140px; margin-left: 10px" placeholder="example: 1,2,4,8 or 1,3,9,27 ..."><span class="dice_text" value="LBS" onmouseover="showHelp(this.value)" onmouseout="hideHelp(this.value)" style="margin-left: 10px; font-size: 12px">LBS:</span>
+    <input type="checkbox" id="LastBetStop" class="css-checkbox" value="LBSI" onmouseout="hideHelp(this.value)" onmouseover="showHelp(this.value)">
+    <br><span class="dice_text" value="FB" onmouseover="showHelp(this.value)" onmouseout="hideHelp(this.value)" style="margin-left: 10px; font-size: 12px">FB:</span>
+    <select class="dice_stop_at_amount" id="Fbet" value="FBI" onmouseover="showHelp(this.value)" onmouseout="hideHelp(this.value)">
+        <option value="empty">Off</option>
+        <option value="low">Low</option>
+        <option value="high">High</option>
+    </select><span class="dice_text" value="SWAP" onmouseover="showHelp(this.value)" onmouseout="hideHelp(this.value)" style="margin-left: 10px; font-size: 12px">Swap:</span>
+    <select class="Sselect" id="swap" onchange="showO(this.value)" value="afterW" onmouseover="showHelp(this.value)" onmouseout="hideHelp(this.value)">
+        <option value="empty">Off</option>
+        <option value="same">Same</option>
+        <option value="afterW">AfterWin</option>
+        <option value="afterL">AfterLosse</option>
+        <option value="smart">SmartOne</option>
+        <option value="random">Random</option>
+    </select>
+    <br>
+    <div id="SmartO" style="display: none;"><span class="dice_text" value="RSW" onmouseover="showHelp(this.value)" onmouseout="hideHelp(this.value)" style="margin-left: 10px; font-size: 12px">RSWin:</span>
+        <input type="text" id="RSwapWin" class="dice_stop_at_amount" value="RSWI" onmouseover="showHelp(this.value)" onmouseout="hideHelp(this.value)" style="width: 80px; margin-left: 10px"><span class="dice_text" value="RSL" onmouseover="showHelp(this.value)" onmouseout="hideHelp(this.value)" style="margin-left: 10px; font-size: 12px">RSLoss:</span>
+        <input type="text" id="RSwapLoss" class="dice_stop_at_amount" value="RSLI" onmouseover="showHelp(this.value)" onmouseout="hideHelp(this.value)" style="width: 80px; margin-left: 10px">
+    </div>
+    <br><span class="dice_text" value="PW" onmouseover="showHelp(this.value)" onmouseout="hideHelp(this.value)" style="margin-left: 10px; font-size: 12px">PW:</span>
+    <input type="text" id="RepeatW" class="dice_stop_at_amount" value="PWI" onmouseover="showHelp(this.value)" onmouseout="hideHelp(this.value)" style="width: 80px; margin-left: 10px"><span class="dice_text" value="PL" onmouseover="showHelp(this.value)" onmouseout="hideHelp(this.value)" style="margin-left: 10px; font-size: 12px">PL:</span>
+    <input type="text" id="RepeatL" class="dice_stop_at_amount" value="PLI" onmouseover="showHelp(this.value)" onmouseout="hideHelp(this.value)" style="width: 80px; margin-left: 10px">
+    <br><span class="dice_text" value="MULTI" onmouseover="showHelp(this.value)" onmouseout="hideHelp(this.value)" style="margin-left: 10px; font-size: 12px">Multi:</span>
+    <input type="text" id="BetX" class="dice_stop_at_amount" value="MULTIX" onmouseover="showHelp(this.value)" onmouseout="hideHelp(this.value)" style="width: 140px; margin-left: 10px" placeholder="example: 1,2,4,8 or 1,3,9,27 ...">
+    <br>
+    <br><span id="Message" class="dice_text" value="MESS" onmouseover="showHelp(this.value)" onmouseout="hideHelp(this.value)" style="margin-left: 10px; font-size: 12px">c[○┬●]כ - d[ o_0 ]b</span>
+    <br><span class="dice_text" style="margin-left: 18%;top: 5px;position: relative;font-size: 14px;text-decoration: underline;">To Be continued:</span>
+</body>
+
+</html>

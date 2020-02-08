@@ -1,0 +1,73 @@
+html {
+    color: #7faed7;
+    cursor: default
+}
+
+body {
+    min-width: 1250px;
+    max-width: auto;
+    height: 100%;
+    margin: 1px;
+    display: inline;
+    zoom: 79%;
+    background-image: url("https://thc.pologtijaune.pf/~TahitiBot/images/background.jpg");
+    background-position: center;
+    background-size: auto
+}
+
+h1 {
+    position: relative;
+    top: -10px;
+    font-family: "Times New Roman";
+    text-align: center;
+    font-size: 160%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 0;
+    -webkit-margin-after: 20px
+}
+
+h2,
+h3 {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    font-family: "Times New Roman";
+    color: #104975;
+    text-align: center;
+    font-size: 170%;
+    background-color: rgba(255, 255, 255, 0.7);
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 10px
+}
+
+p {
+    position: relative;
+    width: 100%;
+    color: #7faed7
+}
+
+#GenBox,
+#MegaBox {
+    position: relative;
+    width: 60%;
+    height: Auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    overflow: auto
+}
+
+#Tabs {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border
+}
+
+.img {
+    width: 100%;
+}
