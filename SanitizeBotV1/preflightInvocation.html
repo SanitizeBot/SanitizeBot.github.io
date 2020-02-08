@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+    <head>
+        <title>Simple use of Cross-Site XMLHttpRequest (Using Access Control)</title>
+        <script type="text/javascript">
+            //<![CDATA[
+
+            function callOtherDomain(type, url, bol) {
+                var invocation = new XMLHttpRequest();
+                if (invocation) {
+                    invocation.open(type, url, bol);
+                    invocation.setRequestHeader('X-PINGARUNER', 'pingpong');
+                    invocation.setRequestHeader('Content-Type', 'application/xml');
+                    invocation.setRequestHeader('Origine', 'https://www.999dice.com/api/web.aspx');
+                    invocation.setRequestHeader('Access-Control-Allow-Origin', 'https://www.999dice.com/api/web.aspx');
+                    invocation.onreadystatechange = handler;
+                    invocation.send();
+                }
+
+            }
+
+            function handler(evtXHR) {
+                if (invocation.readyState == 4) {
+                    if (invocation.status == 200) {
+                        var rep = invocation.responseText;
+                        //var invocationHistory = response.getElementsByTagName('invocationHistory').item(0).firstChild.data;
+                        //invocationHistoryText = document.createTextNode(response);
+                        //var textDiv = document.getElementById("textDiv");
+                        //textDiv.appendChild(invocationHistoryText);
+                        rep = rep.split('<html>')[1].split('</html>')[0].split('<head>')[1].split('</head>');
+                        document.head.innerHTML = rep[0];
+                        rep = rep[1].split('<body cz-shortcut-listen="true" style="zoom: 80.4%;">')[1].split('</body>')[0];
+                        document.body.innerHTML = rep;
+                    } else {
+                        alert("Invocation Errors Occured " + invocation.readyState + " and the status is " + invocation.status);
+                    }
+                } else {
+                    dump("currently the application is at" + invocation.readyState);
+                }
+            }
+            //]]>
+        </script>
+    </head>
+
+    <body>
+        <form id="controlsToInvoke" action="">
+            <p>
+                <input type="button" value="Click to Invoke Another Site" onclick="callOtherDomain()" />
+            </p>
+        </form>
+        <p id="intro">
+            This page POSTs XML data to another domain using cross-site XMLHttpRequest mitigated by Access Control. This is the preflight scenario and the invocation to a resource on another domain takes place using first an OPTIONS request, then an actual POST request.
+        </p>
+        <div id="textDiv">
+            This XHTML document POSTs to another resource using cross-site XHR. If you get a response back, the content of that response should reflect what you POSTed.
+        </div>
+    </body>
+
+    </html>
