@@ -1,0 +1,1158 @@
+html {
+    color: #7faed7;
+    background-color: black;
+    cursor: default;
+}
+
+body {
+    min-width: 1250px;
+    max-width: auto;
+    height: 100%;
+    margin: 1px;
+    display: inline;
+    zoom: 79%
+}
+
+h1 {
+    position: relative;
+    top: -30px;
+    font-family: "Times New Roman";
+    text-align: center;
+    font-size: 200%;
+    width: 50%;
+    min-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 0
+}
+
+h2 {
+    font-family: "Times New Roman";
+    text-align: center;
+    text-decoration-line: underline;
+    font-size: 120%;
+    width: 50%;
+    min-width: 750px;
+    margin: auto
+}
+
+h3 {
+    font-family: "Times New Roman";
+    text-align: center;
+    font-size: 120%;
+    color: gold;
+    margin: 5px
+}
+
+h4 {
+    position: relative;
+    top: -50px;
+    width: 1094px;
+    font-family: "Times New Roman";
+    color: cornsilk;
+    text-align: center;
+    font-size: 300%;
+    background-color: rgba(255, 255, 255, 0.3)
+}
+
+h5 {
+    position: relative;
+    bottom: -290px;
+    font-family: "Times New Roman";
+    color: lavender;
+    text-align: center;
+    font-size: 250%;
+    background-color: rgba(20, 20, 20, 0.5)
+}
+
+p {
+    position: relative;
+    width: 100%;
+    color: #7faed7
+}
+
+p.AccountStats {
+    position: relative;
+    width: 100%;
+    top: -15px;
+    left: 0;
+    font-size: 200%;
+    text-align: center;
+    line-height: 4px
+}
+
+a {
+    text-overflow: ellipsis
+}
+
+.textI {
+    position: relative;
+    text-align: right;
+    width: 50%;
+    font-size: 250%;
+    line-height: 5%
+}
+
+.textI2 {
+    position: relative;
+    text-align: right;
+    top: -8px;
+    font-size: 150%;
+    line-height: 4px;
+    line-height: 10px
+}
+
+#connectDiv {
+    position: relative;
+    width: 50%;
+    left: -160px;
+    margin: auto;
+    min-width: 700px;
+    max-width: 700px;
+    height: 500px;
+    font-family: "Times New Roman";
+    border-color: lightgray;
+    display: ""
+}
+
+#DivMessage {
+    position: relative;
+    width: 100%;
+    display: block;
+    font-family: "Times New Roman";
+    color: orangered;
+    text-align: center;
+    font-size: 160%;
+    overflow: hidden
+}
+
+#DivButtonMessage {
+    position: relative;
+    width: 100%;
+    display: block;
+    font-family: "Times New Roman";
+    color: orangered;
+    background-color: rgba(10, 10, 10, 0.4);
+    text-align: center;
+    font-size: 160%;
+    overflow: hidden
+}
+
+#Infos {
+    position: inherit;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    min-height: 150px;
+    max-height: 150px;
+    border-right-width: 2px;
+    border-right-color: lightgray;
+    border-right-style: solid;
+    display: block;
+    overflow: hidden
+}
+
+#INFOS {
+    position: relative;
+    width: 14.45%;
+    height: 100%;
+    display: inline-block;
+    overflow: hidden
+}
+
+#BTC {
+    position: relative;
+    width: 28%;
+    min-width: 300px;
+    height: 100%;
+    display: inline-block;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover
+}
+
+#DOGE {
+    position: relative;
+    width: 28%;
+    min-width: 300px;
+    height: 100%;
+    display: inline-block;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover
+}
+
+#LTC {
+    position: static;
+    width: 28%;
+    min-width: 300px;
+    height: 100%;
+    display: inline-block;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover
+}
+
+.opacity {
+    position: relative;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden
+}
+
+.opacity2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: 200px;
+    max-width: 100%;
+    overflow: hidden
+}
+
+#HelpMask {
+    position: absolute;
+    width: 98%;
+    left: 1%;
+    height: 50px;
+    top: 70px;
+    background-color: rgba(0, 0, 0, 0);
+    display: none
+}
+
+.MaskAnim {
+    animation-name: ShowLine;
+    animation-duration: .4s;
+    animation-iteration-count: 3;
+    animation-timing-function: ease
+}
+
+@keyframes ShowLine {
+    0% {
+        background-color: rgba(0, 0, 0, 0)
+    }
+    25% {
+        background-color: rgba(255, 0, 0, .3)
+    }
+    75% {
+        background-color: rgba(255, 0, 0, .5)
+    }
+    100% {
+        background-color: rgba(0, 0, 0, 0)
+    }
+}
+
+.text {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    text-align: right;
+    color: cornsilk
+}
+
+.textInfos {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    text-align: right;
+    color: #7faed7
+}
+
+#BigBox {
+    position: inherit;
+    width: 1694px;
+    height: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    display: block;
+    background-position: bottom;
+    background-size: cover;
+    border-width: 4px;
+    border-color: lightgray;
+    border-style: solid
+}
+
+#playRoom {
+    position: relative;
+    width: 1094px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    display: inline-block
+}
+
+#box {
+    position: relative;
+    min-width: 1080px;
+    height: 1100px;
+    display: block
+}
+
+#minibox {
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1098px;
+    border-top-width: 1px;
+    border-top-color: lightgray;
+    border-top-style: solid;
+    display: inline-block;
+    overflow: hidden
+}
+
+#Settings {
+    position: relative;
+    width: 496;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px
+}
+
+#Choice {
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    border-width: 1px;
+    border-color: #7faed7;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    display: none
+}
+
+#Single {
+    position: relative;
+    width: 32%;
+    min-width: 250px;
+    top: -100px;
+    margin-right: 1px;
+    margin-left: 18px;
+    height: 356;
+    border-style: solid;
+    border-width: thin;
+    background-size: cover;
+    background-position-y: -50px;
+    display: inline-block;
+}
+
+#Auto {
+    position: relative;
+    width: 31.3%;
+    min-width: 250px;
+    margin: auto;
+    margin-left: 1px;
+    margin-right: 1px;
+    top: -100px;
+    height: 356;
+    border-style: solid;
+    border-width: thin;
+    display: inline-block;
+    background-size: cover;
+    background-position: center
+}
+
+#System {
+    position: relative;
+    width: 32%;
+    min-width: 250px;
+    margin: auto;
+    margin-left: 1px;
+    top: -100px;
+    height: 356;
+    border-style: solid;
+    border-width: thin;
+    display: inline-block;
+    background-size: cover;
+    background-position: center
+}
+
+#SinglePlay {
+    position: absolute;
+    left: -300px;
+    width: 1094px;
+    height: 500px;
+    border-width: 1px;
+    border-color: #7faed7;
+    border-bottom-style: solid;
+    display: none
+}
+
+#AutoPlay {
+    position: absolute;
+    left: -300px;
+    width: 1094px;
+    height: 500px;
+    border-width: 1px;
+    border-color: #7faed7;
+    border-bottom-style: solid;
+    display: none
+}
+
+#SystemPlay {
+    position: absolute;
+    left: -300px;
+    width: 1094px;
+    height: 500px;
+    border-width: 1px;
+    border-color: #7faed7;
+    border-bottom-style: solid;
+    display: none
+}
+
+#MultiPlay {
+    position: absolute;
+    left: -300px;
+    width: 100%;
+    height: 500px;
+    border-width: 1px;
+    border-color: #7faed7;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    display: none
+}
+
+#DivLoginStatut {
+    position: absolute;
+    color: darkred;
+    text-align: center;
+    left: auto;
+    right: 35%;
+    top: 460px;
+    font-size: 250%;
+    line-height: 10px;
+    background-color: rgba(210, 210, 210, 0.5)
+}
+
+#Connect {
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    height: 50px;
+    width: 200px;
+    margin: auto;
+    color: firebrick;
+    font-size: 250%;
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+#NewAccount {
+    position: absolute;
+    top: 100px;
+    left: 698px;
+    height: 50px;
+    width: 200px;
+    margin: auto;
+    color: firebrick;
+    font-size: 250%;
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+.InputDiv {
+    position: relative;
+    top: 10px;
+    width: 50%;
+    margin: auto;
+    height: 40px;
+    font-size: 250%;
+    line-height: 10px;
+    display: inline-block
+}
+
+.CInput {
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: 400px;
+    line-height: 10px;
+    font-size: 80%;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgba(255, 252, 172, 0.65)
+}
+
+.SingleText {
+    position: absolute;
+    width: 220px;
+    font-family: "Times New Roman";
+    font-size: 180%;
+    text-align: right
+}
+
+.SingleInput {
+    position: absolute;
+    height: 40px;
+    font-family: "Times New Roman";
+    background-color: rgba(255, 255, 255, 0.1);
+    border-bottom-style: solid;
+    font-size: 200%;
+    color: cornsilk
+}
+
+#HighLowVar,
+#ChangeVar,
+#CryptoVar,
+#ABHighLow,
+#ABChange,
+#ABCrypto,
+#AutoWithdrawVar,
+#ABAutoWithdrawVar,
+#SysHighLowVar,
+#SysChangeVar,
+#SysCrypto,
+#SysAutoWithdrawVar,
+#BetWinOp {
+    position: absolute;
+    height: 46px;
+    font-family: "Times New Roman";
+    background-color: rgba(255, 255, 255, 0.1);
+    border-bottom-style: solid;
+    color: cornsilk;
+    font-size: 200%
+}
+
+.List {
+    position: absolute;
+    height: 50px;
+    font-family: "Times New Roman";
+    background-color: #3c3c3c;
+    border-bottom-style: solid;
+    color: cornsilk
+}
+
+#Buttons {
+    position: inherit;
+    width: 1098px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 130px;
+    min-height: 130px;
+    max-height: 130px;
+    border-width: 2px;
+    border-color: lightgray;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    display: block;
+    overflow: hidden
+}
+
+.playButton {
+    position: relative;
+    margin-left: 1px;
+    margin-top: 0;
+    font-size: 140%;
+    background-color: red;
+    border-style: outset;
+    font-family: "Times New Roman";
+    color: #F2F1A8
+}
+
+#StopWinButton {
+    font-size: 150%
+}
+
+#ButtonStart {
+    font-size: 170%
+}
+
+.playButtonS {
+    position: relative;
+    width: 35px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 140%;
+    display: inline-block;
+    border-style: outset;
+    font-family: "Times New Roman";
+    color: #7faed7;
+    background-color: rgba(50, 50, 50, 0.5)
+}
+
+.playButton2 {
+    position: relative;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    left: 20px;
+    font-size: 140%;
+    display: inline-block;
+    color: lightgray;
+    background-color: darkblue
+}
+
+#B2BbButton {
+    background-color: darkgreen;
+    margin-right: 0;
+}
+
+#PlayB {
+    position: relative;
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 130px;
+    float: left;
+    display: block;
+    overflow: hidden
+}
+
+#PlayB2 {
+    position: relative;
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 540px;
+    height: 130px;
+    display: block;
+    overflow: hidden
+}
+
+.SlotList {
+    position: relative;
+    width: 110px;
+    margin-top: 5px;
+    height: 35px;
+    font-family: "Times New Roman";
+    font-size: 140%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-bottom-style: outset;
+    float: right;
+    right: 30px;
+    padding: 0 0 0 15px
+}
+
+#Stats {
+    position: absolute;
+    width: 599px;
+    height: 1250px;
+    border-left-width: 3px;
+    border-left-color: lightgray;
+    border-left-style: solid;
+    display: none;
+    float: right;
+    overflow: hidden
+}
+
+.StatsText {
+    position: static;
+    width: 130px;
+    margin: 10px;
+    margin-top: 0;
+    font-family: "Times New Roman";
+    font-size: 160%;
+    text-align: right;
+    overflow: hidden;
+    line-height: 30px;
+}
+
+.StatsTextResults {
+    position: static;
+    width: 428px;
+    margin: 10px;
+    margin-top: 0;
+    font-family: "Times New Roman";
+    font-size: 160%;
+    text-align: left;
+    overflow: hidden;
+    line-height: 30px
+}
+
+.StatsTextResults2 {
+    position: static;
+    width: 138px;
+    margin: 10px;
+    margin-top: 0;
+    font-family: "Times New Roman";
+    font-size: 160%;
+    text-align: left;
+    overflow: hidden;
+    line-height: 30px
+}
+
+.StatBox {
+    position: absolute;
+    margin-top: -40px
+}
+
+#GenSet,
+#Tools {
+    position: absolute;
+    width: 599px;
+    height: 1250px;
+    border-left-width: 3px;
+    border-left-color: lightgray;
+    border-left-style: solid;
+    display: none;
+    float: right;
+    overflow: hidden
+}
+
+#ToolsBox,
+#GenBox {
+    position: absolute;
+    width: 100%;
+    height: 1170px;
+    display: block;
+    overflow: auto
+}
+
+.OptionTextTitle {
+    position: static;
+    width: auto;
+    margin: 10px;
+    margin-top: 20px;
+    font-family: "Times New Roman";
+    color: #5c2e2e;
+    font-size: 220%;
+    font-style: italic;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    line-height: 40px;
+    word-wrap: break-word;
+    border-bottom-style: double;
+    border-bottom-width: 4px;
+    border-bottom-color: lightgray
+}
+
+.OptionText,
+.Addy {
+    position: static;
+    width: 170px;
+    margin: 10px;
+    font-family: "Times New Roman";
+    font-size: 160%;
+    text-align: right;
+    overflow: hidden;
+    line-height: 30px;
+    word-wrap: break-word;
+    display: inline-block
+}
+
+.OptionTextAddy {
+    position: static;
+    width: 70px;
+    margin: 10px;
+    font-family: "Times New Roman";
+    font-size: 160%;
+    text-align: right;
+    overflow: hidden;
+    line-height: 30px;
+    word-wrap: break-word;
+    display: inline-block
+}
+
+.OptionTextSound {
+    position: static;
+    width: 102px;
+    margin-left: 10px;
+    font-family: "Times New Roman";
+    font-size: 160%;
+    text-align: center;
+    overflow: hidden;
+    line-height: 30px;
+    word-wrap: break-word;
+    display: inline-block
+}
+
+.OptionAWInput {
+    position: relative;
+    font-family: "Times New Roman";
+    background-color: rgba(0, 0, 0, 0.2);
+    border-bottom-style: solid;
+    font-size: 150%;
+    color: rgba(255, 252, 172, 0.65);
+    display: inline;
+    width: 360px;
+    top: -17px;
+    margin-left: 10px
+}
+
+.OptionInputSound {
+    position: relative;
+    font-family: "Times New Roman";
+    background-color: rgba(0, 0, 0, 0.2);
+    border-bottom-style: solid;
+    font-size: 150%;
+    color: rgba(255, 252, 172, 0.65);
+    display: inline;
+    width: 97px;
+    margin-left: 12px
+}
+
+.OptionCheck {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    display: inline;
+    margin-left: 10px;
+    top: -10px
+}
+
+#SaveGen {
+    position: absolute;
+    bottom: 20px;
+    width: 150px;
+    right: 10px;
+    height: 40px;
+    color: rgba(32, 18, 5, 0.8);
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 200%;
+    display: inline
+}
+
+.LeftPanelButton {
+    position: absolute;
+    bottom: 20px;
+    width: 130px;
+    right: 10px;
+    height: 40px;
+    color: rgba(32, 18, 5, 0.8);
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 200%;
+    display: inline
+}
+
+#Help {
+    position: absolute;
+    width: 599px;
+    height: 1250px;
+    border-left-width: 3px;
+    border-left-color: lightgray;
+    border-left-style: solid;
+    display: inline-block;
+    float: right;
+    overflow: hidden
+}
+
+#ConnectHelp {
+    position: absolute;
+    display: block;
+    height: 100%
+}
+
+#ChoiceHelp {
+    position: absolute;
+    display: none;
+    height: 100%
+}
+
+#SingleHelp,
+#AutoHelp {
+    position: absolute;
+    display: none;
+    height: 100%;
+    width: 100%
+}
+
+.HelpImage {
+    position: relative;
+    display: block;
+    left: 25px;
+    margin-bottom: 10px;
+    width: 90%
+}
+
+.HelpTitleTxt {
+    float: right;
+    text-align: center;
+    width: 95%;
+    margin-right: 2.5%;
+    height: 35px;
+    font-size: 110%;
+    color: black;
+    background-color: rgba(255, 255, 255, .3);
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    overflow: hidden;
+    word-break: break-all
+}
+
+.ConnectOptionText {
+    position: static;
+    width: 576px;
+    margin: 10px;
+    height: 1080px;
+    font-family: "Times New Roman";
+    font-size: 180%;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    word-wrap: break-word;
+    display: inline-block
+}
+
+#Results {
+    position: relative;
+    height: 445px;
+    width: 100%
+}
+
+.RHead {
+    position: absolute;
+    top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 33px;
+    width: 725px;
+    border-color: lightgray;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.LogLabel {
+    font-size: 150%
+}
+
+.ResultsHead {
+    position: relative;
+    height: 30px;
+    margin-right: 2px;
+    margin-top: 5px;
+    color: gold;
+    font-size: 150%;
+    text-align: center;
+    display: inline-block;
+    border-right-style: solid;
+    border-right-color: slategray
+}
+
+#FullResults {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    width: 735px;
+    height: 414px;
+    background-color: rgba(0, 0, 0, 0.2);
+    overflow: auto;
+    border-color: slategray
+}
+
+.ResultsGenHead {
+    position: relative;
+    margin-top: 1px;
+    height: 30px;
+    color: gold;
+    font-size: 150%;
+    text-align: center;
+    display: inline-block;
+    border-right-style: solid;
+    border-right-color: slategray;
+    overflow: hidden
+}
+
+.GResultsHead {
+    position: relative;
+    margin-top: 2px;
+    font-size: 130%;
+    text-align: center;
+    display: inline-block;
+    border-right-style: solid;
+    border-right-color: slategray
+}
+
+.GResultsHead#GResultsHead2 {
+    border-right-style: none
+}
+
+#GenResults {
+    width: 99%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.3);
+    overflow: auto
+}
+
+#GenHead {
+    position: relative;
+    width: 99%;
+    height: 33px;
+    top: -3px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden
+}
+
+#DataShare,
+#DebugData {
+    width: 97%;
+    max-width: 97%;
+    height: 130px;
+    margin-left: 1%;
+    font-size: 175%;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgba(255, 252, 172, 0.65);
+    resize: none
+}
+
+#DebugData {
+    color: #ffffff;
+    background-color: rgba(0, 60, 75, 0.8);
+    word-break: break-word;
+    overflow-y: scroll
+}
+
+#DivBtcAddy,
+#DivDogeAddy,
+#DivLtcAddy {
+    width: 80%;
+    top: -15px;
+    margin-left: -10px;
+    font-size: 140%;
+    float: right
+}
+
+#LogPanel {
+    position: absolute;
+    right: 0;
+    width: 345px;
+    height: 464px;
+    border-left-style: solid;
+    border-left-color: lightgray;
+    border-left-width: 2px;
+    background-color: rgba(0, 0, 0, 0.2);
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-overflow: ellipsis
+}
+
+.LogTxt {
+    position: relative;
+    font-size: 130%;
+    width: 310px;
+    top: 10px;
+    margin-left: 4px;
+    line-height: 4px
+}
+
+#gen {
+    position: relative;
+    width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1256px;
+    display: block;
+    overflow: hidden;
+    border-bottom-style: groove;
+    border-bottom-color: #7faed7;
+    border-width: 1px
+}
+
+#DivCookie {
+    width: 40px;
+    text-overflow: ellipsis
+}
+
+.LeftArrow {
+    left: 6px;
+    -webkit-transform: scaleX(-1);
+}
+
+.RightArrow {
+    right: 6px;
+}
+
+#BetFormat,
+#ABBetFormat,
+#SysBetFormat {
+    top: -113px;
+    left: 724px;
+    width: 125px;
+    font-size: 200%;
+    color: red;
+}
+
+.bodyclass {
+    background-color: black;
+}
+
+.Vids {
+    color: #f3b89f;
+    text-decoration: underline;
+}
+
+#HelpMe {
+    position: relative;
+    display: none;
+    left: 1%;
+    margin-top: 10px;
+    width: 98%;
+    height: 95%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-size: 160%;
+    background-color: rgba(0, 0, 0, .6);
+    border-style: solid;
+    border-color: indianred;
+    border-width: 1px;
+}
+
+#Clean {
+    position: absolute;
+    bottom: -20px;
+    right: 300px;
+    height: 50px;
+}
+
+#Connect,
+#NewAccount,
+.playButton,
+.playButton2,
+.playButtonS,
+.Vids,
+.LeftArrow,
+.RightArrow,
+.Addy,
+.LeftPanelButton,
+#rId1,
+#rId2,
+.statsInfos,
+#Clean,
+.Click {
+    cursor: pointer
+}
+
+.LeftArrow,
+.RightArrow {
+    position: absolute;
+    top: 5px;
+    width: 85px;
+    height: 55px;
+    background-size: 100%;
+    color: rgba(0, 0, 0, 0);
+    background-image: url("https://thc.pologtijaune.pf/~TahitiBot/images/RedArrow.png")
+}
+
+.LeftArrow,
+.RightArrow:hover {
+    background-image: url("https://thc.pologtijaune.pf/~TahitiBot/images/RedArrowShadow.png");
+}
+
+#BTC {
+    background-image: url("https://thc.pologtijaune.pf/~TahitiBot/images/btc.min.jpg");
+}
+
+#DOGE {
+    background-image: url("https://thc.pologtijaune.pf/~TahitiBot/images/doge.min.jpg");
+}
+
+#LTC {
+    background-image: url("https://thc.pologtijaune.pf/~TahitiBot/images/ltc.min.jpg");
+}
+
+#Single {
+    background-image: url("https://thc.pologtijaune.pf/~TahitiBot/images/SingleDice.jpg");
+}
+
+#Auto {
+    background-image: url("https://thc.pologtijaune.pf/~TahitiBot/images/MultDice.jpg");
+}
+
+#System {
+    background-image: url("https://thc.pologtijaune.pf/~TahitiBot/images/SystemDice.jpg");
+}
+
+#BigBox {
+    background-image: url("https://thc.pologtijaune.pf/~TahitiBot/images/bg3.jpg");
+}
