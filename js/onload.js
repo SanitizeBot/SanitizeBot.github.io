@@ -1,3 +1,4 @@
+// ==UserScript==
 // @name         999Dice Naughty Bot
 // @namespace    http://thc.pologtijaune.pf/~TahitiBot/
 // @version      1.2.2 Standalone
