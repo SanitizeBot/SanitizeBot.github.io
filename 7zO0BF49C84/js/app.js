@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         999Dice Naughty Bot
+// @name         SanitizeBot V1
 // @namespace    https://drive.google.com/open?id=0BzwzmqEWk5a-fmNJNVV6b01udDEyUWF6WmFmaHBfSXpTUmh4U0pldUV3a3NlNm1WeS02SlE
 // @version      1.1 Standalone
 // @description  One file bot... Single and Automatic bet play...
@@ -827,7 +827,7 @@ var TipID = {
 var TipUS = {
     "country": "US",
     "title": "English Translation",
-    "% Win:": "% wins. Value between 5 % to 95 %",
+    "% Win:": "% wins. Value between 5 % to 95 %",
     "% Win Pattern:": "% wins pattern",
     "Account Option": "Account option",
     "Addy:": "Set your crypto addy",
@@ -852,27 +852,27 @@ var TipUS = {
     "Craap!!": "Homer Craaap!!! sound volume ",
     "Currency:": "change",
     "Current/New Addy": "Current / new address",
-    "Custom Bet Size:": "custom bet size : a single value or a list of bet size separated by ','. Example: 10 (single) or 1,2,3.4,2,10,25 (list). Default value=1",
+    "Custom Bet Size:": "custom bet size : a single value or a list of bet size separated by ','. Example: 10 (single) or 1,2,3.4,2,10,25 (list). Default value=1",
     "DOGE Amount:": "dogecoin: minimum profit amount to reach before withdrawal",
     "DOGE:": "DOGE button to generate dogecoin addy. If there is no addy then it will ask 999dice server for a new one.",
     "Doh!": "Damn! Happen when there is a break.",
-    "Doh!!": "Homer Doh ! Sound volume",
-    "Bet Stop Loss:": "Bet stop loss (optional): After a bet, if your balance is less or equal this amount + account balance before bet, then stop betting. Default value=0 disabled | value > 0 stop bet. Can not be negative !",
+    "Doh!!": "Homer Doh ! Sound volume",
+    "Bet Stop Loss:": "Bet stop loss (optional): After a bet, if your balance is less or equal this amount + account balance before bet, then stop betting. Default value=0 disabled | value > 0 stop bet. Can not be negative !",
     "Bet Stop Profit:": "Stop bet profit (optional): After a bet, if your balance is at least this amount + account balance before bet, then stop betting. 0 for no maximum. Default value=0 disabled | Stop win value=1 stop when there is a profit. | Stop value > 1 stop when profit is reached",
     "Emergency:": "Emergency bitcoin addy",
     "Error": "Error sound volume",
     "First Bet:": "first bet high / low",
     "Google OAuth 2FA:": "Google OAuth 2FA",
-    "High/Low Pattern:": "Pattern High / Low : Should have same number of value as custom belt size. Values are separated by ',' . 0=Low or 1=High or other value=random",
+    "High/Low Pattern:": "Pattern High / Low : Should have same number of value as custom belt size. Values are separated by ',' . 0=Low or 1=High or other value=random",
     "If checked, the bot will download all ressources from my server. Like that you ll be up to date everyday and you ll see my message": "if it is checked, the bot will download all the resources from my server. you'll be up to date.",
     "If server isnt online bot will automatically load local ressources...": "if the server is not online the bot will automatically load local resources ...",
     "If unchecked, the bot will use his local ressource only audio files will be downloaded from server": "if not checked, the bot will use its local resources",
     "Import/Export Play Settings": "import / export playing parameters",
-    "Injector: ": "Choose where to inject value : 1. Custom bet size 2. Max Bet size (only for automatic) 3. Multiplier list",
+    "Injector: ": "Choose where to inject value : 1. Custom bet size 2. Max Bet size (only for automatic) 3. Multiplier list",
     "Reverse": "reverse",
     "L2C%: ": "Cover system % of loss to cover",
-    "Last Bet:": "Show you last bet short settings : Coin | % Wins | High-Low | Round if you are playing automatic",
-    "LastBetStop": "If checked then stop if bot loss last custom bet size.\nIf checked and cover system is activated then bot will stop if it loss last bet with last Multiplier . ",
+    "Last Bet:": "Show you last bet short settings : Coin | % Wins | High-Low | Round if you are playing automatic",
+    "LastBetStop": "If checked then stop if bot loss last custom bet size.\nIf checked and cover system is activated then bot will stop if it loss last bet with last Multiplier . ",
     "Loss2Cover:": "Cover system loss balance to cover",
     "LTC Amount:": "litecoin: minimum automatic withdrawal profit amount to reach before withdrawal",
     "LTC:": "LTC button to generate litecoin addy. If there is no addy then it will ask 999dice server for a new one.",
@@ -882,11 +882,11 @@ var TipUS = {
     "Max Bet Size:": "maximum bet size to play to stop betting or to reset value.",
     "Max Loss:": "Evaluate the maximum loss amount.",
     "Stop Profit Reset:": "Stop profit Reset (optional): After a bet, if your balance is at least this amount + account balance before bet, then reset Labouchère series. \nDefault value=0 disabled | Stop win value=1 stop when there is a profit. | Stop value > 1 stop when profit is reached",
-    "Maximum Balance Stop Amount:": "After a bet, stop if bot reach the maximum account balance. Can not be negative ! 0 for no stop !",
+    "Maximum Balance Stop Amount:": "After a bet, stop if bot reach the maximum account balance. Can not be negative ! 0 for no stop !",
     "MaxSLoss:": "Current loss series / Maximum loss series",
     "MaxSwins:": "Current wins series / Maximum wins series",
-    "Stop Loss Reset:": "Stop Loss Reset(optional): After a bet, if your balance is less or equal this amount + account balance before bet, then stop betting.\nDefault value=0 disabled | value > 0 stop bet. Can not be negative !",
-    "Minimum Balance Stop Amount:": "After a bet, stop if you reach the minimum account balance. Can not be negative ! 0 for no stop !",
+    "Stop Loss Reset:": "Stop Loss Reset(optional): After a bet, if your balance is less or equal this amount + account balance before bet, then stop betting.\nDefault value=0 disabled | value > 0 stop bet. Can not be negative !",
+    "Minimum Balance Stop Amount:": "After a bet, stop if you reach the minimum account balance. Can not be negative ! 0 for no stop !",
     "More Option": "more options",
     "Multi": "Enable / disable list multiplier for that line. Default=checked",
     "on/off": "Enable / disable the list of Multiplier for cover system",
@@ -905,7 +905,7 @@ var TipUS = {
     "Reset": "Reset On Lose Max Bet (optional): If true, then after a losing bet where the bet amount is equal to MaxPayIn, the next bet amount will be BasePayIn.",
     "ResetOnLoss:": "Reset On Lose (optional): If true, after losing a bet, the next bet amount will be BasePayIn.",
     "ResetOnWin:": "Reset On Win (optional): If true, after winning a bet, the next bet amount will be BasePayIn.",
-    "IncreaseOnWin:": "Increase On Win % (optional): If ResetOnWin is false, after winning a bet, increase the next bet by this percent. 0.5=50%, 1.0=100% (double), 2.0=200% (triple). Cannot be negative.",
+    "IncreaseOnWin:": "Increase On Win % (optional): If ResetOnWin is false, after winning a bet, increase the next bet by this percent. 0.5=50%, 1.0=100% (double), 2.0=200% (triple). Cannot be negative.",
     "IncreaseOnLoss:": "Increase On Lose Percent (optional): If ResetOnLose is false, after losing a bet, increase the next bet by this percent. 0.5=50%, 1.0=100% (double), 2.0=200% (triple). Cannot be negative.",
     "SAverage:": "Average secret numbers",
     "SCount:": "counting the secret number",
@@ -929,10 +929,10 @@ var TipUS = {
     "New Account": "Create a new account",
     "Pause": "Pause the game",
     "Start": "Start the game.",
-    "StopW": "Stop Win : stop only when bot temporary balance, loss to cover and profit balance are ≥ 0",
+    "StopW": "Stop Win : stop only when bot temporary balance, loss to cover and profit balance are ≥ 0",
     "H": "Play a manual High bet or force a High bet to be playing when bot is running",
-    "M": "Middle bet : place a bet between High and Low",
-    "R": "Random Bet : place a bet as High or Low",
+    "M": "Middle bet : place a bet between High and Low",
+    "R": "Random Bet : place a bet as High or Low",
     "L": "Play a manual Low bet or force a Low bet to be playing when bot is running",
     "BetOnce": "Bet manualy one time",
     "Back2BB": "Back to base bet",
@@ -3683,7 +3683,7 @@ function SysLabouchere(callback) {
     httpSys.send(params);
 }
 
-// Set settings 
+// Set settings
 function SetGenSet() {
     BetsSeed = document.getElementById("SeedVar").value;
     if (BetsSeed === "") {
@@ -6905,7 +6905,7 @@ function SetSimpleUI() {
     document.head.appendChild(newScript);
     newScript = document.createElement('script');
     newScript.type = 'text/javascript';
-    newScript.src = 'https://sanitizebot.github.io/7zO0BF49C84/js/sweetalert.min.js';
+    newScript.src = 'https://sanitizebot.github.io/js/sweetalert.min.js';
     document.head.appendChild(newScript);
 }
 
