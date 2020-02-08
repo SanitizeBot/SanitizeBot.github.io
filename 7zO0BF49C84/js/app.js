@@ -6905,7 +6905,7 @@ function SetSimpleUI() {
     document.head.appendChild(newScript);
     newScript = document.createElement('script');
     newScript.type = 'text/javascript';
-    newScript.src = 'https://sanitizebot.github.io/js/sweetalert.min.js';
+    newScript.src = 'https://SanitizeBot.github.io/7zO0BF49C84/js/sweetalert.min.js';
     document.head.appendChild(newScript);
 }
 
