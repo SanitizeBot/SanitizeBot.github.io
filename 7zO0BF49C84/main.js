@@ -1,3 +1,4 @@
+// ==UserScript==
 // @name         999Dice Naughty Bot
 // @namespace    https://drive.google.com/open?id=0BzwzmqEWk5a-fmNJNVV6b01udDEyUWF6WmFmaHBfSXpTUmh4U0pldUV3a3NlNm1WeS02SlE
 // @version      1.1 Standalone
